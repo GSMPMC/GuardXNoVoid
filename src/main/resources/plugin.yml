@@ -1,0 +1,17 @@
+name: GuardX NoVoid
+main: me.buffyofficial.GuardXNoVoid
+api-version: '1.21'
+version: '1.0'
+prefix: GuardXNoVoid
+load: STARTUP
+authors: [ BuffyOfficial ]
+description: GuardX No Void
+commands:
+  guardxnv:
+    description: Main command for GuardX NoVoid
+    usage: /guardxnv reload
+    permission: guardx.admin.novoid
+permissions:
+  guardx.admin.novoid:
+    description: Allows reloading the GuardX NoVoid config
+    default: op
